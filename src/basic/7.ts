@@ -2,7 +2,7 @@ type Pages = {
     title: string,
     likes: number,
     acounts: string[],
-    status: string
+    status: 'open' | 'close'
     details?: PageDetail
 }
 type PageDetail = {
